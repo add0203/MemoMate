@@ -1,10 +1,10 @@
 :root {
-  --background-color: #f7c566;
-  --bs-primary-rgb: #6c0345;
+  --background-color: #8decb4;
+  --bs-primary-rgb: #141e46;
 }
 
 body {
-  --background-color: #f7c566;
+  /* --background-color: #f7c566; */
   font-family: "Poppins", sans-serif;
   background-color: var(--background-color);
   color: var(--bs-primary-rgb);
@@ -74,24 +74,39 @@ h6 {
 }
 @media (min-width: 1200px) {
   .home {
-    background: url("../img/person2.png") left bottom no-repeat,
-      url("../img/person1.png") right bottom no-repeat,
-      url("../img/noise-bg.png") left top repeat, var(--background-color);
+    background:
+     /* url("../img/walking-boy.gif") left bottom no-repeat, */
+      /* url("../img/note-taking.gif") 50px bottom no-repeat, */ url("../img/noise-bg.png")
+        left top repeat,
+      var(--background-color);
+    background-blend-mode: multiply;
+    background-size: 200px;
   }
 }
+/* @media (min-width: 1200px) {
+  .home {
+    background: url("../img/rocket.gif") left bottom no-repeat,
+      url("../img/note-taking.gif") 50px bottom no-repeat,
+      url("../img/noise-bg.png") left top repeat, var(--background-color);
+    background-blend-mode: multiply;
+  }
+} */
 
 .home-title::before {
-  content: url("../img/starts.png");
+  /* content: url("../img/starts.png"); */
+  content: url("../img/flower.gif");
   position: absolute;
   z-index: -999;
-  /* left: -30px;
-  top: -30px; */
+  height: 1rem;
+  width: 30px;
+  left: 200px;
+  top: 8px;
 }
 
 .home-title::after {
-  content: url("../img/starts.png");
+  content: url("../img/flower-small.gif");
   position: absolute;
   z-index: -999;
-  /* right: -50px;
-  bottom: -30px; */
+  right: 350px;
+  bottom: 250px;
 }

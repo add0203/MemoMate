@@ -138,8 +138,30 @@ exports.dashboardAddNote = async (req, res) => {
 };
 exports.dashboardAddNoteSubmit = async (req, res) => {
   try {
-    res.render("dashboard/add", {
-      layout: "../views/layouts/dashboard",
+    req.body.user = req.user.id; //add user id to the body
+    await Note.create(req.body);
+    res.redirect("/dashboard");
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+exports.dashboardSearch = async (req, res) => {
+  try {
+    res.redirect("/dashboard/search", {
+      searchResult: "",
+      layout: "../views/layout/dashboard",
     });
-  } catch (error) {}
+  } catch (error) {
+    console.log(error);
+  }
+};
+exports.dashboardSearchSubmit = async (req, res) => {
+  try {
+    req.body.user = req.user.id; //add user id to the body
+    await Note.create(req.body);
+    res.redirect("/dashboard");
+  } catch (error) {
+    console.log(error);
+  }
 };
