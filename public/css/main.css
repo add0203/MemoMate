@@ -4,6 +4,7 @@
 }
 
 body {
+  --background-color: #f7c566;
   font-family: "Poppins", sans-serif;
   background-color: var(--background-color);
   color: var(--bs-primary-rgb);
