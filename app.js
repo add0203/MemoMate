@@ -47,6 +47,9 @@ app.set("layout", "./layouts/main");
 app.set("view engine", "ejs");
 
 // Routes
+app.use("/support", (req, res) => {
+  res.status(404).render("underProcess");
+});
 
 app.use("/", require("./server/routes/index"));
 app.use("/", require("./server/routes/auth"));
