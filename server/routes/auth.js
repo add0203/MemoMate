@@ -44,10 +44,10 @@ router.get(
 
 // Retrieve user data
 router.get(
-  "https://memomate-6czr.onrender.com/google/callback",
+  "google/callback",
   passport.authenticate("google", {
     failureRedirect: "/login-failure",
-    successRedirect: "/dashboard",
+    successRedirect: "https://memomate-6czr.onrender.com/dashboard",
   })
 );
 
