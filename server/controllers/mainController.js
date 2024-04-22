@@ -1,7 +1,7 @@
 exports.homepage = async (req, res) => {
   const locals = {
-    title: "NodeJS Notes",
-    description: "lorem10101010101010",
+    title: "MEMOMATE",
+    description: "MemoMate is a simple to use free note taking app made in node Js, Ejs & MongoDB. MemoMate is a simple to use free note taking app made in Node Js, EJS & MongoDB.",
   };
 
   res.render("./home/index", {
