@@ -4,6 +4,7 @@
 
 video link : https://youtu.be/bMPfXzW3RFg
 
+Pdf of Screens : https://drive.google.com/file/d/1uN6oVXM77WuFGqMyKceFyxiZgqdAAe4T/view?usp=sharing
 
 Key Features:
 1. **Google Sign Up**: Easily create an account or log in using your Google credentials for quick access to MemoMate's features.
