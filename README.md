@@ -1,6 +1,8 @@
 😎 MemoMate is a dynamic note-taking web application designed to simplify the way you capture and organize your thoughts, ideas, and tasks. With seamless integration of Google Sign Up functionality, MemoMate offers a convenient and secure way to access your notes from anywhere, anytime.
 
-screenshots: ![Recording2024-05-04233347-ezgif com-video-to-gif-converter](https://github.com/add0203/MemoMate/assets/120220077/dbbe7a1e-6194-4fe6-85a7-c5f4848cf2e4)
+![Recording2024-05-04233347-ezgif com-video-to-gif-converter](https://github.com/add0203/MemoMate/assets/120220077/dbbe7a1e-6194-4fe6-85a7-c5f4848cf2e4)
+
+video link : https://youtu.be/bMPfXzW3RFg
 
 
 Key Features:
